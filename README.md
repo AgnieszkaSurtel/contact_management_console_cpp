@@ -31,7 +31,12 @@ The application ensures data integrity through a structured ID system:
 * **IDE**: Visual Studio Code ⚡
 * **System APIs**: `windows.h` (used for `system("cls")` and `Sleep` functions) 🪟
 * **Data Handling**: File I/O (fstream, sstream) for persistent storage 💾
+* 
+## 🚀 How to Run
 
-* ## 💡 Author
+1. **Clone the repository**:
+   ```bash
+   git clone [https://github.com/AgnieszkaSurtel/contact_management_console_cpp.git]
+## 💡 Author
 
 Built by Agnieszka Surtel
