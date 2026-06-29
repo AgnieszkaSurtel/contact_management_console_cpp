@@ -9,16 +9,15 @@ You can check out the working application here: [YouTube](https://youtu.be/faE6a
 
 * **🔐 Secure Authentication**: Multi-user registration and login system with password protection.
 * **👤 Relational Contact Management**:
-    * **Registration**: Each user is assigned a specific **User ID**.
-    * **Personalized System**: Manage contacts strictly assigned to your **User ID**.
+    * **Registration**: First, create a unique account; each user is assigned a specific **User ID**.
+    * **Personalized System**: After logging in, you can manage contacts that are strictly assigned to your **User ID**.
     * **Add**: Create new contact records linked to your account.
-    * **Search**: Locate your own contacts by name.
-    * **Display**: View all entries assigned to your account.
-    * **Edit**: Update existing contact details.
-    * **Remove**: Safely delete contacts belonging to your account.
-
+    * **Search**: Efficiently locate your own contacts by name.
+    * **Display**: View all entries specifically assigned to your user account.
+    * **Edit**: Update your existing contact details seamlessly.
+    * **Remove**: Safely delete contacts belonging to your account from the database.
 * **⚙️ Account Security**: Change your password at any time.
-* **💾 Data Persistence**: Saving/loading data using local text files.
+* **💾 Data Persistence**: Seamless saving and loading of user and contact data using local text files (`Users.txt`, `Recipients.txt`), where contact data is filtered by the logged-in **User ID**.
 
 ## 🏗️ Data Architecture
 
@@ -27,7 +26,12 @@ The application ensures data integrity through a structured ID system:
 * **Unique User Identification**: Every account is assigned a unique **User ID**.
 * **Relational Mapping**: Each contact entry is strictly linked to a specific **User ID**.
 
-## 🛠️ Technologies & Tools
-
 * **Language**: C++ 💻
 * **Version Control**: Git & GitHub 🐙
+* **IDE**: Visual Studio Code ⚡
+* **System APIs**: `windows.h` (used for `system("cls")` and `Sleep` functions) 🪟
+* **Data Handling**: File I/O (fstream, sstream) for persistent storage 💾
+
+* ## 💡 Author
+
+Built by [Agnieszka Surtel]
