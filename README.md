@@ -44,7 +44,7 @@ The application ensures data integrity through a structured ID system:
    ```
 3. Compile the code (ensure you have a C++ compiler like MinGW installed):
     ```
-   g++ -o ContactManager.exe main.cpp Recipient.cpp User.cpp UserManager.cpp RecipientManager.cpp HelperMethods.cpp
+   g++ -o AddressBook.exe main.cpp AddressBook.cpp FileWithRecipients.cpp FileWithUsers.cpp HelperMethods.cpp Recipient.cpp RecipientManager.cpp TextFile.cpp User.cpp UserManager.cpp
     ```
 4. Run the application:
    ```
