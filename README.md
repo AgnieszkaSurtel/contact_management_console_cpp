@@ -1,5 +1,8 @@
 📖 Contact Management System
-A robust console-based application written in C++ designed for efficient personal contact management. This project focuses on implementing a secure Contact Management System with user authentication and comprehensive data manipulation capabilities.
+A robust console-based application written in **C++** designed for efficient personal contact management. This project focuses on implementing a secure **Contact Management System** with user authentication and comprehensive data manipulation capabilities.
+
+🚀 Live Demo
+You can check out the working application here: [https://agnieszkasurtel.com/budget/](https://youtu.be/faE6aPZhRJg)
 
 🚀 Features
 🔐 Secure Authentication: Multi-user registration and login system with password protection.
@@ -41,8 +44,5 @@ IDE: Visual Studio Code ⚡
 System APIs: windows.h (used for system("cls") and Sleep functions) 🪟
 
 Data Handling: File I/O (fstream, sstream) for persistent storage 💾
-
-🎥 Demonstration
-See how the Contact Management System works in practice:
-
-[▶️ Click here to watch the demonstration video](https://youtu.be/faE6aPZhRJg)
+💡 Author
+Built by [Agnieszka Surtel]
