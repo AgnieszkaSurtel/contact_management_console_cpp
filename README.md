@@ -10,9 +10,9 @@ You can check out the working application here: [YouTube](https://youtu.be/faE6a
 * **🔐 Secure Authentication**: Multi-user registration and login system with password protection.
 * **👤 Relational Contact Management**:
     * **Registration**: First, create a unique account; each user is assigned a specific **User ID**.
-    * **Personalized System**: After logging in, you can manage contacts that are strictly assigned to your **User ID**.
+    * **Personalized System**: After logging in, you can manage contacts that are strictly assigned to your **User ID** and password.
     * **Add**: Create new contact records linked to your account.
-    * **Search**: Efficiently locate your own contacts by name.
+    * **Search**: Efficiently locate your own contacts by name or surname.
     * **Display**: View all entries specifically assigned to your user account.
     * **Edit**: Update your existing contact details seamlessly.
     * **Remove**: Safely delete contacts belonging to your account from the database.
@@ -34,4 +34,4 @@ The application ensures data integrity through a structured ID system:
 
 * ## 💡 Author
 
-Built by [Agnieszka Surtel]
+Built by Agnieszka Surtel
