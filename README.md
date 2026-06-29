@@ -31,12 +31,25 @@ The application ensures data integrity through a structured ID system:
 * **IDE**: Visual Studio Code ⚡
 * **System APIs**: `windows.h` (used for `system("cls")` and `Sleep` functions) 🪟
 * **Data Handling**: File I/O (fstream, sstream) for persistent storage 💾
-* 
+
 ## 🚀 How to Run
 
 1. **Clone the repository**:
-   ```bash
-   git clone [https://github.com/AgnieszkaSurtel/contact_management_console_cpp.git]
+   ```
+   git clone https://github.com/AgnieszkaSurtel/contact_management_console_cpp.git
+   ```
+2. Navigate to the project folder:
+```
+cd contact_management_console_cpp
+```
+3. Compile the code (ensure you have a C++ compiler like MinGW installed):
+  ```
+ g++ -o ContactManager.exe main.cpp Recipient.cpp User.cpp UserManager.cpp RecipientManager.cpp HelperMethods.cpp
+```
+4. Run the application:
+   ```
+   ./AddressBook.exe
+   ```
 ## 💡 Author
 
 Built by Agnieszka Surtel
