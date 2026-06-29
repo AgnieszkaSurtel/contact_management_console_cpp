@@ -3,7 +3,7 @@
 A robust console-based application written in **C++** designed for efficient personal contact management.
 
 ## 🚀 Live Demo
-You can check out the working application here: [YouTube/](https://youtu.be/faE6aPZhRJg)
+You can check out the working application here: [YouTube](https://youtu.be/faE6aPZhRJg)
 
 ## 🚀 Features
 
