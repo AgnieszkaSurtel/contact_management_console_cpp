@@ -1,48 +1,33 @@
-📖 Contact Management System
-A robust console-based application written in **C++** designed for efficient personal contact management. This project focuses on implementing a secure **Contact Management System** with user authentication and comprehensive data manipulation capabilities.
+# 📖 Contact Management System
 
-🚀 Live Demo
+A robust console-based application written in **C++** designed for efficient personal contact management.
+
+## 🚀 Live Demo
 You can check out the working application here: [https://agnieszkasurtel.com/budget/](https://youtu.be/faE6aPZhRJg)
 
-🚀 Features
-🔐 Secure Authentication: Multi-user registration and login system with password protection.
+## 🚀 Features
 
-👤 Relational Contact Management:
+* **🔐 Secure Authentication**: Multi-user registration and login system with password protection.
+* **👤 Relational Contact Management**:
+    * **Registration**: Each user is assigned a specific **User ID**.
+    * **Personalized System**: Manage contacts strictly assigned to your **User ID**.
+    * **Add**: Create new contact records linked to your account.
+    * **Search**: Locate your own contacts by name.
+    * **Display**: View all entries assigned to your account.
+    * **Edit**: Update existing contact details.
+    * **Remove**: Safely delete contacts belonging to your account.
 
-Registration: First, create a unique account; each user is assigned a specific User ID.
+* **⚙️ Account Security**: Change your password at any time.
+* **💾 Data Persistence**: Saving/loading data using local text files.
 
-Personalized System: After logging in, you can manage contacts that are strictly assigned to your User ID.
+## 🏗️ Data Architecture
 
-Add: Create new contact records linked to your account (First/Last Name, Phone, Email, Address).
+The application ensures data integrity through a structured ID system:
 
-Search: Efficiently locate your own contacts by name.
+* **Unique User Identification**: Every account is assigned a unique **User ID**.
+* **Relational Mapping**: Each contact entry is strictly linked to a specific **User ID**.
 
-Display: View all entries specifically assigned to your user account in a clean, readable format.
+## 🛠️ Technologies & Tools
 
-Edit: Update your existing contact details seamlessly.
-
-Remove: Safely delete contacts belonging to your account from the database.
-
-⚙️ Account Security: Change your password at any time.
-
-💾 Data Persistence: Seamless saving and loading of user and contact data using local text files (Users.txt, Recipients.txt), where contact data is filtered by the logged-in User ID.
-
-🏗️ Data Architecture
-The application ensures data integrity and organization through a structured ID system:
-
-Unique User Identification: Every account is assigned a unique User ID upon registration.
-
-Relational Mapping: Each contact entry is strictly linked to a specific User ID. This hierarchical structure ensures that the Contact Management data remains organized and accessible only to their respective owners.
-
-🛠️ Technologies & Tools
-Language: C++ 💻
-
-Version Control: Git & GitHub 🐙
-
-IDE: Visual Studio Code ⚡
-
-System APIs: windows.h (used for system("cls") and Sleep functions) 🪟
-
-Data Handling: File I/O (fstream, sstream) for persistent storage 💾
-💡 Author
-Built by [Agnieszka Surtel]
+* **Language**: C++ 💻
+* **Version Control**: Git & GitHub 🐙
